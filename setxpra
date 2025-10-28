@@ -1,0 +1,7 @@
+xpra stop :100 || true
+xpra start :100   --start="mono /root/MP/MissionPlanner.exe"   --bind-ssl=127.0.0.1:10000   --html=on   --ssl-cert=./ssl/fullchain.pem   --ssl-key=./ssl/privkey.pem
+
+xpra stop :101 || true
+xpra start :101   --start="/home/root/QGroundControl.AppImage"   --bind-ssl=127.0.0.1:10100   --html=on   --ssl-cert=./ssl/fullchain.pem   --ssl-key=./ssl/privkey.pem
+
+
