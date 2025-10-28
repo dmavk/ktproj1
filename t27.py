@@ -414,11 +414,11 @@ def home():
           <a href="/dash/"
              style="display:inline-flex; align-items:center; gap:10px;
                     padding:12px 18px; border-radius:14px; text-decoration:none;
-                    background:linear-gradient(135deg,#36d1dc,#5b86e5);   /* 지도 버튼 색상 */
-                    color:#fff; font-weight:800; box-shadow:0 6px 16px rgba(0,0,0,.25);">
+                    background:linear-gradient(135deg,#FFD54F,#FFC107);   /* 노란색 버튼 */
+                    color:#000; font-weight:800; box-shadow:0 6px 16px rgba(0,0,0,.25);">
             <img src="/static/icons/SNS.png" alt="SNS Message 아이콘"
                  style="width:30px; height:30px; display:block; border-radius:4px;">
-            센서 메세지
+            산불 메세지
           </a>
         
           <!-- 🗺️ 지도 보기 -->
